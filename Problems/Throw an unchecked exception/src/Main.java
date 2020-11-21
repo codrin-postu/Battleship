@@ -2,6 +2,7 @@ public class Main {
 
     public static void method() {
         // write your code here
+        throw new RuntimeException("Something bad happened");
     }
 
     /* Do not change code below */

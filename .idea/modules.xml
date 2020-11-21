@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship.iml" group="Battleship" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes.iml" group="Battleship/Problems-Convert_to_bytes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" group="Battleship/Problems-Convert_to_bytes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" group="Battleship/Problems-Convert_to_bytes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words.iml" group="Battleship/Problems-Count_words" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_main.iml" group="Battleship/Problems-Count_words" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_test.iml" group="Battleship/Problems-Count_words" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week.iml" group="Battleship/Problems-Days_of_the_week" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_main.iml" group="Battleship/Problems-Days_of_the_week" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_test.iml" group="Battleship/Problems-Days_of_the_week" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text.iml" group="Battleship/Problems-Reverse_input_text" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_main.iml" group="Battleship/Problems-Reverse_input_text" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_test.iml" group="Battleship/Problems-Reverse_input_text" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number.iml" group="Battleship/Problems-The_root_of_a_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_main.iml" group="Battleship/Problems-The_root_of_a_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_test.iml" group="Battleship/Problems-The_root_of_a_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception.iml" group="Battleship/Problems-Throw_an_unchecked_exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_main.iml" group="Battleship/Problems-Throw_an_unchecked_exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_test.iml" group="Battleship/Problems-Throw_an_unchecked_exception" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Battleship/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Battleship/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Battleship/util" />
+    </modules>
+  </component>
+</project>
