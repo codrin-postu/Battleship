@@ -28,8 +28,10 @@ public class Board {
     }
 
     public void outputBoard() {
-        //Output the empty space
+        //Output the empty corner
         System.out.print(" ");
+
+        //First line (positions)
         for (int i = 1; i <= board.length; i++) {
             System.out.print(" " + i);
         }
@@ -48,7 +50,7 @@ public class Board {
 
     public void addShip(int shipType) {
         Scanner scanner = new Scanner(System.in);
-        String input;
+        String input = new String();
         int[] xCoords = new int[2];
         int[] yCoords = new int[2];
 
@@ -85,11 +87,11 @@ public class Board {
 
             for (int i = 0; i < 2; i++) {
                 input = scanner.next();
+                input = input.toUpperCase();
+
                 xCoords[i] = input.charAt(0) - 65;
                 yCoords[i] = Integer.parseInt(input.substring(1)) - 1;
             }
-
-            System.out.println(xCoords[0] + ", " + yCoords[0] + " -> " + xCoords[1] + ", " + yCoords[1]);
 
         } while (!checkShip(xCoords, yCoords, expectedLength, shipName));
 
@@ -112,6 +114,13 @@ public class Board {
         //We order the coords in case the ships were placed the other way around
         Arrays.sort(xCoords);
         Arrays.sort(yCoords);
+
+        for (int i = 0; i < 2; i++) {
+            if (xCoords[i] >= 10 || xCoords[i] < 0 || yCoords[i] >= 10 || yCoords[i] < 0) {
+                System.out.println("Error! Wrong location! Try again:");
+                return false;
+            }
+        }
 
         if (Math.abs(xCoords[0] - xCoords[1]) + 1 != expectedLength && Math.abs(yCoords[0] - yCoords[1]) + 1 != expectedLength) {
             System.out.println("Error! Wrong length of the " + shipName + "! Try again:");
@@ -155,6 +164,31 @@ public class Board {
             }
         }
 
+        return true;
+    }
+
+    public boolean takeShot() {
+        Scanner scanner = new Scanner(System.in);
+        int targetxCoord, targetyCoord;
+
+        System.out.println("Take a shot!");
+
+        String input = scanner.next();
+        input = input.toUpperCase();
+
+        targetxCoord = input.charAt(0) - 65;
+        targetyCoord = Integer.parseInt(input.substring(1)) - 1;
+
+        if (targetxCoord >= 10 || targetxCoord < 0 || targetyCoord >= 10 || targetyCoord < 0) {
+            System.out.println("Error! You entered the wrong coordinates! Try again:");
+            return false;
+        } else if (board[targetxCoord][targetyCoord] == "o") {
+            System.out.println("You hit a ship!");
+            board[targetxCoord][targetyCoord] = "X";
+        } else {
+            System.out.println("You missed!");
+            board[targetxCoord][targetyCoord] = "M";
+        }
         return true;
     }
 

@@ -8,39 +8,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Count words/Problems-Count_words_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Days of the week/Problems-Days_of_the_week_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Reverse input text/Problems-Reverse_input_text_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/The root of a number/Problems-The_root_of_a_number_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Problems/Throw an unchecked exception/Problems-Throw_an_unchecked_exception_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Convert to bytes/out/production/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Convert to bytes/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Convert to bytes/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Count words/out/production/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Count words/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Count words/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Days of the week/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Days of the week/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Reverse input text/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Reverse input text/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Reverse input text/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/The root of a number/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The root of a number/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/The root of a number/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/The root of a number/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/Throw an unchecked exception/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Throw an unchecked exception/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/The first shot/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/The first shot/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/test/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/test/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/classes/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/classes/Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/TEST-Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +128,7 @@
       <updated>1605914476121</updated>
       <workItem from="1605914477969" duration="1279000" />
       <workItem from="1605916792772" duration="4429000" />
-      <workItem from="1606781431676" duration="17128000" />
+      <workItem from="1606781431676" duration="20244000" />
     </task>
     <servers />
   </component>
@@ -156,22 +140,22 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1112@0.0.1728.1112" timestamp="1607514566838" />
-    <state width="1685" height="305" key="GridCell.Tab.0.bottom" timestamp="1607525689538">
+    <state width="1685" height="305" key="GridCell.Tab.0.bottom" timestamp="1607529288678">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607525689538" />
-    <state width="1685" height="305" key="GridCell.Tab.0.center" timestamp="1607525689538">
+    <state width="1685" height="305" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
+    <state width="1685" height="305" key="GridCell.Tab.0.center" timestamp="1607529288678">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607525689538" />
-    <state width="1685" height="305" key="GridCell.Tab.0.left" timestamp="1607525689538">
+    <state width="1685" height="305" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
+    <state width="1685" height="305" key="GridCell.Tab.0.left" timestamp="1607529288678">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607525689538" />
-    <state width="1685" height="305" key="GridCell.Tab.0.right" timestamp="1607525689538">
+    <state width="1685" height="305" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
+    <state width="1685" height="305" key="GridCell.Tab.0.right" timestamp="1607529288678">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607525689538" />
+    <state width="1685" height="305" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
     <state width="1685" height="240" key="GridCell.Tab.1.bottom" timestamp="1607525466024">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -211,7 +195,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Battleship/task/src/battleship/Board.java</url>
-          <line>138</line>
+          <line>147</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

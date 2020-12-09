@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.365s</div>
+<div class="counter">0.347s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">start</td>
-<td class="success">0.365s</td>
+<td class="success">0.347s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -102,7 +102,6 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Enter the coordinates of the Aircraft Carrier (5 cells):
 &gt; F3 F7
-5, 2 -&gt; 5, 6
   1 2 3 4 5 6 7 8 9 10
 A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -116,7 +115,6 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Enter the coordinates of the Battleship (4 cells):
 &gt; A1 D1
-0, 0 -&gt; 3, 0
   1 2 3 4 5 6 7 8 9 10
 A o ~ ~ ~ ~ ~ ~ ~ ~ ~
 B o ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -130,10 +128,8 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Enter the coordinates of the Submarine (3 cells):
 &gt; J7 J10
-9, 6 -&gt; 9, 9
 Error! Wrong length of the Submarine! Try again:
 &gt; J10 J8
-9, 9 -&gt; 9, 7
   1 2 3 4 5 6 7 8 9 10
 A o ~ ~ ~ ~ ~ ~ ~ ~ ~
 B o ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -147,10 +143,8 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ o o o
 Enter the coordinates of the Cruiser (3 cells):
 &gt; B9 D8
-1, 8 -&gt; 3, 7
 Error! Wrong ship location! Try again:
 &gt; B9 D9
-1, 8 -&gt; 3, 8
   1 2 3 4 5 6 7 8 9 10
 A o ~ ~ ~ ~ ~ ~ ~ ~ ~
 B o ~ ~ ~ ~ ~ ~ ~ o ~
@@ -164,10 +158,8 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ o o o
 Enter the coordinates of the Destroyer (2 cells):
 &gt; E6 D6
-4, 5 -&gt; 3, 5
 Error! You placed it too close to another one, Try again:
 &gt; I2 J2
-8, 1 -&gt; 9, 1
   1 2 3 4 5 6 7 8 9 10
 A o ~ ~ ~ ~ ~ ~ ~ ~ ~
 B o ~ ~ ~ ~ ~ ~ ~ o ~
@@ -179,6 +171,33 @@ G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 I ~ o ~ ~ ~ ~ ~ ~ ~ ~
 J ~ o ~ ~ ~ ~ ~ o o o
+The game starts!
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ ~ ~ ~ ~ o ~
+C o ~ ~ ~ ~ ~ ~ ~ o ~
+D o ~ ~ ~ ~ ~ ~ ~ o ~
+E ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+F ~ ~ o o o o o ~ ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+I ~ o ~ ~ ~ ~ ~ ~ ~ ~
+J ~ o ~ ~ ~ ~ ~ o o o
+Take a shot!
+&gt; A1
+You hit a ship!
+  1 2 3 4 5 6 7 8 9 10
+A X ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ ~ ~ ~ ~ o ~
+C o ~ ~ ~ ~ ~ ~ ~ o ~
+D o ~ ~ ~ ~ ~ ~ ~ o ~
+E ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+F ~ ~ o o o o o ~ ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+I ~ o ~ ~ ~ ~ ~ ~ ~ ~
+J ~ o ~ ~ ~ ~ ~ o o o
+Take a shot!
 ?[1;31m
 Start test 2?[0m
   1 2 3 4 5 6 7 8 9 10
@@ -194,7 +213,6 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 Enter the coordinates of the Aircraft Carrier (5 cells):
 &gt; J3 J7
-9, 2 -&gt; 9, 6
   1 2 3 4 5 6 7 8 9 10
 A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -208,10 +226,8 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ o o o o o ~ ~ ~
 Enter the coordinates of the Battleship (4 cells):
 &gt; C8 B8
-2, 7 -&gt; 1, 7
 Error! Wrong length of the Battleship! Try again:
 &gt; C8 F8
-2, 7 -&gt; 5, 7
   1 2 3 4 5 6 7 8 9 10
 A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -225,10 +241,8 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ o o o o o ~ ~ ~
 Enter the coordinates of the Submarine (3 cells):
 &gt; A1 C2
-0, 0 -&gt; 2, 1
 Error! Wrong ship location! Try again:
 &gt; A1 C1
-0, 0 -&gt; 2, 0
   1 2 3 4 5 6 7 8 9 10
 A o ~ ~ ~ ~ ~ ~ ~ ~ ~
 B o ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -242,7 +256,6 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ o o o o o ~ ~ ~
 Enter the coordinates of the Cruiser (3 cells):
 &gt; H1 H3
-7, 0 -&gt; 7, 2
   1 2 3 4 5 6 7 8 9 10
 A o ~ ~ ~ ~ ~ ~ ~ ~ ~
 B o ~ ~ ~ ~ ~ ~ ~ ~ ~
@@ -256,10 +269,8 @@ I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ o o o o o ~ ~ ~
 Enter the coordinates of the Destroyer (2 cells):
 &gt; G2 E2
-6, 1 -&gt; 4, 1
 Error! Wrong length of the Destroyer! Try again:
 &gt; B5 C5
-1, 4 -&gt; 2, 4
   1 2 3 4 5 6 7 8 9 10
 A o ~ ~ ~ ~ ~ ~ ~ ~ ~
 B o ~ ~ ~ o ~ ~ ~ ~ ~
@@ -271,6 +282,150 @@ G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 H o o o ~ ~ ~ ~ ~ ~ ~
 I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
 J ~ ~ o o o o o ~ ~ ~
+The game starts!
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ o ~ ~ ~ ~ ~
+C o ~ ~ ~ o ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ ~ ~ ~ ~ o ~ ~
+F ~ ~ ~ ~ ~ ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H o o o ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Take a shot!
+&gt; M1
+Error! You entered the wrong coordinates! Try again:
+Take a shot!
+&gt; A11
+Error! You entered the wrong coordinates! Try again:
+Take a shot!
+&gt; E4
+You missed!
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ o ~ ~ ~ ~ ~
+C o ~ ~ ~ o ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ M ~ ~ ~ o ~ ~
+F ~ ~ ~ ~ ~ ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H o o o ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Take a shot!
+?[1;31m
+Start test 3?[0m
+  1 2 3 4 5 6 7 8 9 10
+A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+C ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+D ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+E ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+F ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+Enter the coordinates of the Aircraft Carrier (5 cells):
+&gt; J3 J7
+  1 2 3 4 5 6 7 8 9 10
+A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+C ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+D ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+E ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+F ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Enter the coordinates of the Battleship (4 cells):
+&gt; C8 B8
+Error! Wrong length of the Battleship! Try again:
+&gt; C8 F8
+  1 2 3 4 5 6 7 8 9 10
+A ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+B ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+C ~ ~ ~ ~ ~ ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ ~ ~ ~ ~ o ~ ~
+F ~ ~ ~ ~ ~ ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Enter the coordinates of the Submarine (3 cells):
+&gt; A1 C2
+Error! Wrong ship location! Try again:
+&gt; A1 C1
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ ~ ~ ~ ~ ~ ~
+C o ~ ~ ~ ~ ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ ~ ~ ~ ~ o ~ ~
+F ~ ~ ~ ~ ~ ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Enter the coordinates of the Cruiser (3 cells):
+&gt; H1 H3
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ ~ ~ ~ ~ ~ ~
+C o ~ ~ ~ ~ ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ ~ ~ ~ ~ o ~ ~
+F ~ ~ ~ ~ ~ ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H o o o ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Enter the coordinates of the Destroyer (2 cells):
+&gt; G2 E2
+Error! Wrong length of the Destroyer! Try again:
+&gt; E5 F5
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ ~ ~ ~ ~ ~ ~
+C o ~ ~ ~ ~ ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ ~ o ~ ~ o ~ ~
+F ~ ~ ~ ~ o ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H o o o ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+The game starts!
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ ~ ~ ~ ~ ~ ~
+C o ~ ~ ~ ~ ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ ~ o ~ ~ o ~ ~
+F ~ ~ ~ ~ o ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H o o o ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Take a shot!
+&gt; E8
+You hit a ship!
+  1 2 3 4 5 6 7 8 9 10
+A o ~ ~ ~ ~ ~ ~ ~ ~ ~
+B o ~ ~ ~ ~ ~ ~ ~ ~ ~
+C o ~ ~ ~ ~ ~ ~ o ~ ~
+D ~ ~ ~ ~ ~ ~ ~ o ~ ~
+E ~ ~ ~ ~ o ~ ~ X ~ ~
+F ~ ~ ~ ~ o ~ ~ o ~ ~
+G ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+H o o o ~ ~ ~ ~ ~ ~ ~
+I ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+J ~ ~ o o o o o ~ ~ ~
+Take a shot!
 </pre>
 </span>
 </div>
@@ -282,7 +437,7 @@ J ~ ~ o o o o o ~ ~ ~
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.6.1</a> at Dec 9, 2020, 4:55:27 PM</p>
+<a href="http://www.gradle.org">Gradle 6.6.1</a> at Dec 9, 2020, 5:58:10 PM</p>
 </div>
 </div>
 </body>
