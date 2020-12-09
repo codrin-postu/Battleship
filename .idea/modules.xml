@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship.iml" group="Battleship" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task.iml" group="Battleship/Battleship-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_main.iml" group="Battleship/Battleship-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Battleship/task/Battleship-task_test.iml" group="Battleship/Battleship-task" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes.iml" group="Battleship/Problems-Convert_to_bytes" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_main.iml" group="Battleship/Problems-Convert_to_bytes" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Convert to bytes/Problems-Convert_to_bytes_test.iml" group="Battleship/Problems-Convert_to_bytes" />

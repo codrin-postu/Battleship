@@ -2,20 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="Problems-Convert_to_bytes_main" target="1.8" />
-      <module name="Problems-Convert_to_bytes_test" target="1.8" />
-      <module name="Problems-Count_words_main" target="1.8" />
-      <module name="Problems-Count_words_test" target="1.8" />
-      <module name="Problems-Days_of_the_week_main" target="1.8" />
-      <module name="Problems-Days_of_the_week_test" target="1.8" />
-      <module name="Problems-Reverse_input_text_main" target="1.8" />
-      <module name="Problems-Reverse_input_text_test" target="1.8" />
-      <module name="Problems-The_root_of_a_number_main" target="1.8" />
-      <module name="Problems-The_root_of_a_number_test" target="1.8" />
-      <module name="Problems-Throw_an_unchecked_exception_main" target="1.8" />
-      <module name="Problems-Throw_an_unchecked_exception_test" target="1.8" />
-      <module name="util_main" target="1.8" />
-      <module name="util_test" target="1.8" />
+      <module name="Battleship-task_main" target="11" />
+      <module name="Battleship-task_test" target="11" />
+      <module name="Problems-Convert_to_bytes_main" target="11" />
+      <module name="Problems-Convert_to_bytes_test" target="11" />
+      <module name="Problems-Count_words_main" target="11" />
+      <module name="Problems-Count_words_test" target="11" />
+      <module name="Problems-Days_of_the_week_main" target="11" />
+      <module name="Problems-Days_of_the_week_test" target="11" />
+      <module name="Problems-Reverse_input_text_main" target="11" />
+      <module name="Problems-Reverse_input_text_test" target="11" />
+      <module name="Problems-The_root_of_a_number_main" target="11" />
+      <module name="Problems-The_root_of_a_number_test" target="11" />
+      <module name="Problems-Throw_an_unchecked_exception_main" target="11" />
+      <module name="Problems-Throw_an_unchecked_exception_test" target="11" />
+      <module name="util_main" target="11" />
+      <module name="util_test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
