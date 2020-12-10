@@ -4,18 +4,36 @@
     <bytecodeTargetLevel>
       <module name="Battleship-task_main" target="11" />
       <module name="Battleship-task_test" target="11" />
+      <module name="Problems-Balance_management_main" target="11" />
+      <module name="Problems-Balance_management_test" target="11" />
       <module name="Problems-Convert_to_bytes_main" target="11" />
       <module name="Problems-Convert_to_bytes_test" target="11" />
       <module name="Problems-Count_words_main" target="11" />
       <module name="Problems-Count_words_test" target="11" />
+      <module name="Problems-Currencies_main" target="11" />
+      <module name="Problems-Currencies_test" target="11" />
+      <module name="Problems-Danger_levels_main" target="11" />
+      <module name="Problems-Danger_levels_test" target="11" />
       <module name="Problems-Days_of_the_week_main" target="11" />
       <module name="Problems-Days_of_the_week_test" target="11" />
+      <module name="Problems-Days_of_week_main" target="11" />
+      <module name="Problems-Days_of_week_test" target="11" />
+      <module name="Problems-Hidden_enumeration_main" target="11" />
+      <module name="Problems-Hidden_enumeration_test" target="11" />
+      <module name="Problems-Project_constants_and_methods_main" target="11" />
+      <module name="Problems-Project_constants_and_methods_test" target="11" />
       <module name="Problems-Reverse_input_text_main" target="11" />
       <module name="Problems-Reverse_input_text_test" target="11" />
+      <module name="Problems-Robot_control_main" target="11" />
+      <module name="Problems-Robot_control_test" target="11" />
+      <module name="Problems-System_of_units_main" target="11" />
+      <module name="Problems-System_of_units_test" target="11" />
       <module name="Problems-The_root_of_a_number_main" target="11" />
       <module name="Problems-The_root_of_a_number_test" target="11" />
       <module name="Problems-Throw_an_unchecked_exception_main" target="11" />
       <module name="Problems-Throw_an_unchecked_exception_test" target="11" />
+      <module name="Problems-Too_many_cats_main" target="11" />
+      <module name="Problems-Too_many_cats_test" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>

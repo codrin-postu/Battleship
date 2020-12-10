@@ -6,11 +6,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/Fog of war/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/Fog of war/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/The end of the war/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/The end of the war/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/The first shot/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/The first shot/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Game$STATUS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/test/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/test/Tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/classes/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/classes/Tests.html" afterDir="false" />
@@ -22,9 +42,16 @@
       <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Game$STATUS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/test/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +126,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-The_root_of_a_number_main" />
+      <module name="Problems-Hidden_enumeration_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +155,8 @@
       <updated>1605914476121</updated>
       <workItem from="1605914477969" duration="1279000" />
       <workItem from="1605916792772" duration="4429000" />
-      <workItem from="1606781431676" duration="20244000" />
+      <workItem from="1606781431676" duration="20481000" />
+      <workItem from="1607585726827" duration="12477000" />
     </task>
     <servers />
   </component>
@@ -140,42 +168,42 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1112@0.0.1728.1112" timestamp="1607514566838" />
-    <state width="1685" height="305" key="GridCell.Tab.0.bottom" timestamp="1607529288678">
+    <state width="1685" height="305" key="GridCell.Tab.0.bottom" timestamp="1607616143686">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
-    <state width="1685" height="305" key="GridCell.Tab.0.center" timestamp="1607529288678">
+    <state width="1685" height="305" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607616143686" />
+    <state width="1685" height="305" key="GridCell.Tab.0.center" timestamp="1607616143685">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
-    <state width="1685" height="305" key="GridCell.Tab.0.left" timestamp="1607529288678">
+    <state width="1685" height="305" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607616143685" />
+    <state width="1685" height="305" key="GridCell.Tab.0.left" timestamp="1607616143685">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
-    <state width="1685" height="305" key="GridCell.Tab.0.right" timestamp="1607529288678">
+    <state width="1685" height="305" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607616143685" />
+    <state width="1685" height="305" key="GridCell.Tab.0.right" timestamp="1607616143685">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607529288678" />
-    <state width="1685" height="240" key="GridCell.Tab.1.bottom" timestamp="1607525466024">
+    <state width="1685" height="305" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607616143685" />
+    <state width="1685" height="240" key="GridCell.Tab.1.bottom" timestamp="1607588172680">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607525466024" />
-    <state width="1685" height="240" key="GridCell.Tab.1.center" timestamp="1607525466024">
+    <state width="1685" height="240" key="GridCell.Tab.1.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607588172680" />
+    <state width="1685" height="240" key="GridCell.Tab.1.center" timestamp="1607588172679">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607525466024" />
-    <state width="1685" height="240" key="GridCell.Tab.1.left" timestamp="1607525466023">
+    <state width="1685" height="240" key="GridCell.Tab.1.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607588172679" />
+    <state width="1685" height="240" key="GridCell.Tab.1.left" timestamp="1607588172679">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607525466023" />
-    <state width="1685" height="240" key="GridCell.Tab.1.right" timestamp="1607525466024">
+    <state width="1685" height="240" key="GridCell.Tab.1.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607588172679" />
+    <state width="1685" height="240" key="GridCell.Tab.1.right" timestamp="1607588172680">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607525466024" />
-    <state x="561" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1606781555724">
+    <state width="1685" height="240" key="GridCell.Tab.1.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607588172680" />
+    <state x="561" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1607585727748">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="561" y="380" key="com.intellij.ide.util.TipDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1606781555724" />
+    <state x="561" y="380" key="com.intellij.ide.util.TipDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1607585727748" />
     <state x="595" y="322" key="extract.method.dialog" timestamp="1607525573030">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -192,11 +220,6 @@
           <url>file://$PROJECT_DIR$/Problems/Count words/src/Main.java</url>
           <line>17</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Battleship/task/src/battleship/Board.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

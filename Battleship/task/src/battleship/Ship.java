@@ -8,6 +8,7 @@ public class Ship {
     private String name;
     private int[] xPos;
     private int[] yPos;
+    private boolean sunk;
 
 
     public Ship(String name, int length, int[] xPos, int[] yPos) {
@@ -17,6 +18,7 @@ public class Ship {
         this.yPos = new int[2];
         this.xPos = Arrays.copyOf(xPos, xPos.length);
         this.yPos = Arrays.copyOf(yPos, yPos.length);
+        this.sunk = false;
     }
 
     public int getStartxPos() {
@@ -36,10 +38,18 @@ public class Ship {
     }
 
     public int[] getxPos() {
-        return Arrays.copyOf(xPos,xPos.length);
+        return Arrays.copyOf(xPos, xPos.length);
+    }
+
+    public boolean isSunk() {
+        return sunk;
     }
 
     public int[] getyPos() {
-        return Arrays.copyOf(yPos,yPos.length);
+        return Arrays.copyOf(yPos, yPos.length);
+    }
+
+    public boolean setSunk(boolean sunk) {
+        this.sunk = sunk;
     }
 }

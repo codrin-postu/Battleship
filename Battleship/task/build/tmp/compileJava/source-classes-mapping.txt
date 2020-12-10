@@ -1,9 +1,13 @@
 battleship/Board.java
  battleship.Board
+ battleship.Board$1
+battleship/GameStatus.java
+ battleship.GameStatus
 battleship/Main.java
  battleship.Main
 battleship/Game.java
  battleship.Game
- battleship.Game$STATUS
+battleship/ShipType.java
+ battleship.ShipType
 battleship/Ship.java
  battleship.Ship

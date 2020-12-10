@@ -11,78 +11,65 @@ public class Board {
     // x - hit ship
     // M - a miss
 
-    String[][] board;
+    String[][] prepBoard; //Shows all ships
+    String[][] gameBoard; //Fog until a missile hit
     Ship[] ships;
     int shipCount;
 
     public Board() {
-        this.board = new String[10][10];
 
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board.length; j++) {
-                board[i][j] = "~";
+        //We initialize the both matrix with the fog.
+        this.prepBoard = new String[10][10];
+        this.gameBoard = new String[10][10];
+
+        for (int i = 0; i < prepBoard.length; i++) {
+            for (int j = 0; j < prepBoard.length; j++) {
+                prepBoard[i][j] = gameBoard[i][j] = "~";
             }
         }
         this.ships = new Ship[5];
         shipCount = 0;
     }
 
-    public void outputBoard() {
+    public void outputBoard(GameStatus status) {
         //Output the empty corner
         System.out.print(" ");
 
-        //First line (positions)
-        for (int i = 1; i <= board.length; i++) {
+        //The columns
+        for (int i = 1; i <= prepBoard.length; i++) {
             System.out.print(" " + i);
         }
         System.out.print("\n");
 
         //Output the current table
-        for (int i = 0; i < board.length; i++) {
+        for (int i = 0; i < prepBoard.length; i++) {
+            //The lines
             System.out.print((char) (i + 65));
+            for (int j = 0; j < prepBoard[i].length; j++) {
 
-            for (int j = 0; j < board[i].length; j++) {
-                System.out.print(" " + board[i][j]);
+                //We check the game status
+                switch (status) {
+                    case PREGAME:
+                        System.out.print(" " + prepBoard[i][j]);
+                        break;
+                    case GAME:
+                        System.out.print(" " + gameBoard[i][j]);
+                        break;
+                }
+
             }
             System.out.print("\n");
         }
     }
 
-    public void addShip(int shipType) {
+    public void addShip(ShipType ship) {
         Scanner scanner = new Scanner(System.in);
         String input = new String();
         int[] xCoords = new int[2];
         int[] yCoords = new int[2];
 
-        String shipName = "Not Defined";
-        int expectedLength = -1;
-
-        switch (shipType) {
-            case 5:
-                shipName = "Aircraft Carrier";
-                expectedLength = 5;
-                break;
-            case 4:
-                shipName = "Battleship";
-                expectedLength = 4;
-                break;
-            case 3:
-                shipName = "Submarine";
-                expectedLength = 3;
-                break;
-            case 2:
-                shipName = "Cruiser";
-                expectedLength = 3;
-                break;
-            case 1:
-                shipName = "Destroyer";
-                expectedLength = 2;
-                break;
-            default:
-                System.out.println("Error! This ship type does not exist");
-        }
-
-        System.out.println("Enter the coordinates of the " + shipName + " (" + expectedLength + " cells):");
+        //We get the coords of the Ship to verify if it is valid
+        System.out.println("Enter the coordinates of the " + ship.getShipName() + " (" + ship.getShipLength() + " cells):");
         do {
 
             for (int i = 0; i < 2; i++) {
@@ -93,21 +80,21 @@ public class Board {
                 yCoords[i] = Integer.parseInt(input.substring(1)) - 1;
             }
 
-        } while (!checkShip(xCoords, yCoords, expectedLength, shipName));
+        } while (!checkShip(xCoords, yCoords, ship.getShipName(), ship.getShipLength()));
 
-        ships[shipCount++] = new Ship(shipName, expectedLength, xCoords, yCoords);
+        ships[shipCount++] = new Ship(ship.getShipName(), ship.getShipLength(), xCoords, yCoords);
         drawShip(xCoords, yCoords);
     }
 
     private void drawShip(int[] xCoords, int[] yCoords) {
         for (int i = xCoords[0]; i <= xCoords[1]; i++) {
             for (int j = yCoords[0]; j <= yCoords[1]; j++) {
-                board[i][j] = "o";
+                prepBoard[i][j] = "o";
             }
         }
     }
 
-    private boolean checkShip(int[] xCoords, int[] yCoords, int expectedLength, String shipName) {
+    private boolean checkShip(int[] xCoords, int[] yCoords, String shipName, int expectedLength) {
         //We check if we have at least 2 points where 2 ships may interact. If true, then it means those 2 are too close to eachother.
         int incorrectPos = 0;
 
@@ -182,12 +169,22 @@ public class Board {
         if (targetxCoord >= 10 || targetxCoord < 0 || targetyCoord >= 10 || targetyCoord < 0) {
             System.out.println("Error! You entered the wrong coordinates! Try again:");
             return false;
-        } else if (board[targetxCoord][targetyCoord] == "o") {
+        } else if (prepBoard[targetxCoord][targetyCoord] == "o") {
+            gameBoard[targetxCoord][targetyCoord] = "X";
+            prepBoard[targetxCoord][targetyCoord] = "X";
+            outputBoard(GameStatus.GAME);
+
             System.out.println("You hit a ship!");
-            board[targetxCoord][targetyCoord] = "X";
+
+            outputBoard(GameStatus.PREGAME);
         } else {
+            gameBoard[targetxCoord][targetyCoord] = "M";
+            prepBoard[targetxCoord][targetyCoord] = "M";
+            outputBoard(GameStatus.GAME);
+
             System.out.println("You missed!");
-            board[targetxCoord][targetyCoord] = "M";
+
+            outputBoard(GameStatus.PREGAME);
         }
         return true;
     }
