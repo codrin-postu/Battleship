@@ -68,19 +68,39 @@ public class Board {
         int[] xCoords = new int[2];
         int[] yCoords = new int[2];
 
+        boolean errorHappened = false;
+
         //We get the coords of the Ship to verify if it is valid
         System.out.println("Enter the coordinates of the " + ship.getShipName() + " (" + ship.getShipLength() + " cells):");
         do {
-
             for (int i = 0; i < 2; i++) {
-                input = scanner.next();
+                errorHappened = false;
+
+                if (scanner.hasNext()) {
+                    input = scanner.next();
+                } else {
+                    errorHappened = true;
+                }
                 input = input.toUpperCase();
 
                 xCoords[i] = input.charAt(0) - 65;
-                yCoords[i] = Integer.parseInt(input.substring(1)) - 1;
+                if (input.length() == 2 && Character.isDigit(input.charAt(1))) {
+                    yCoords[i] = Integer.parseInt(input.substring(1,2)) - 1;
+                } else if (input.length() == 3 && Character.isDigit(input.charAt(1)) && Character.isDigit(input.charAt(2))) {
+                    yCoords[i] = Integer.parseInt(input.substring(1,3)) - 1;
+                } else {
+                    errorHappened = true;
+                    break;
+                }
             }
+            if (!errorHappened) {
+                errorHappened = !checkShip(xCoords, yCoords, ship.getShipName(), ship.getShipLength());
+            } else {
+                System.out.println("Error! Invalid information. Try again:");
+            }
+            scanner.nextLine();
 
-        } while (!checkShip(xCoords, yCoords, ship.getShipName(), ship.getShipLength()));
+        } while (errorHappened);
 
         ships[shipCount++] = new Ship(ship.getShipName(), ship.getShipLength(), xCoords, yCoords);
         drawShip(xCoords, yCoords);
@@ -154,7 +174,7 @@ public class Board {
         return true;
     }
 
-    public boolean takeShot() {
+    public Message takeShot() {
         Scanner scanner = new Scanner(System.in);
         int targetxCoord, targetyCoord;
 
@@ -163,30 +183,44 @@ public class Board {
         String input = scanner.next();
         input = input.toUpperCase();
 
-        targetxCoord = input.charAt(0) - 65;
-        targetyCoord = Integer.parseInt(input.substring(1)) - 1;
+        if (input.length() == 2 && Character.isDigit(input.charAt(1))) {
+            targetxCoord = input.charAt(0) - 65;
+            targetyCoord = Integer.parseInt(input.substring(1, 2)) - 1;
+        } else if (input.length() == 3 && Character.isDigit(input.charAt(1)) && Character.isDigit(input.charAt(2))) {
+            targetxCoord = input.charAt(0) - 65;
+            targetyCoord = Integer.parseInt(input.substring(1, 3)) - 1;
+        } else {
+            return Message.ERR_INV_INF;
+        }
 
         if (targetxCoord >= 10 || targetxCoord < 0 || targetyCoord >= 10 || targetyCoord < 0) {
-            System.out.println("Error! You entered the wrong coordinates! Try again:");
-            return false;
-        } else if (prepBoard[targetxCoord][targetyCoord] == "o") {
+            return Message.ERR_WRNG_COORDS;
+        } /*else if (gameBoard[targetxCoord][targetyCoord] != "~") {
+            return Message.ERR_ALR_HIT;
+        } */else if (prepBoard[targetxCoord][targetyCoord] == "o") {
             gameBoard[targetxCoord][targetyCoord] = "X";
-            prepBoard[targetxCoord][targetyCoord] = "X";
             outputBoard(GameStatus.GAME);
 
-            System.out.println("You hit a ship!");
-
-            outputBoard(GameStatus.PREGAME);
+            for (Ship s : ships
+            ) {
+                if (s.isSunk()) continue;
+                if (s.checkHit(targetxCoord, targetyCoord)) {
+                    if (s.isSunk()) {
+                        shipCount--;
+                        if (shipCount == 0) {
+                            return Message.ALL_SHIP_SUNK;
+                        }
+                        return Message.SHIP_SUNK;
+                    }
+                }
+            }
+            return Message.SHIP_HIT;
         } else {
             gameBoard[targetxCoord][targetyCoord] = "M";
-            prepBoard[targetxCoord][targetyCoord] = "M";
             outputBoard(GameStatus.GAME);
 
-            System.out.println("You missed!");
-
-            outputBoard(GameStatus.PREGAME);
+            return Message.MISS;
         }
-        return true;
     }
 
     private int getIncorrectPos(int[] yCoords, int incorrectPos, int[] placedShipyCoords) {

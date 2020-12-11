@@ -7,6 +7,8 @@ battleship/Main.java
  battleship.Main
 battleship/Game.java
  battleship.Game
+battleship/Message.java
+ battleship.Message
 battleship/ShipType.java
  battleship.ShipType
 battleship/Ship.java

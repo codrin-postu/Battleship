@@ -4,11 +4,12 @@ import java.util.Arrays;
 
 public class Ship {
 
-    private int length = 0;
+    private int length;
     private String name;
     private int[] xPos;
     private int[] yPos;
     private boolean sunk;
+    private int placesHit;
 
 
     public Ship(String name, int length, int[] xPos, int[] yPos) {
@@ -19,6 +20,7 @@ public class Ship {
         this.xPos = Arrays.copyOf(xPos, xPos.length);
         this.yPos = Arrays.copyOf(yPos, yPos.length);
         this.sunk = false;
+        this.placesHit = 0;
     }
 
     public int getStartxPos() {
@@ -49,7 +51,24 @@ public class Ship {
         return Arrays.copyOf(yPos, yPos.length);
     }
 
-    public boolean setSunk(boolean sunk) {
+    public void setSunk(boolean sunk) {
         this.sunk = sunk;
     }
+
+    public boolean checkHit(int xTarget, int yTarget) {
+        Arrays.sort(this.xPos);
+        Arrays.sort(this.yPos);
+        if (xTarget >= this.xPos[0] && xTarget <= this.xPos[1] &&
+                yTarget >= this.yPos[0] && yTarget <= yPos[1]) {
+            placesHit++;
+
+            //We check if the whole ship was shot down;
+            if (placesHit == length) {
+                setSunk(true);
+            }
+            return true;
+        }
+        return false;
+    }
+
 }

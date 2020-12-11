@@ -16,7 +16,7 @@ public class Game {
         gameStatus = GameStatus.PREGAME;
     }
 
-    public void beginGame() {
+    public void prepareGame() {
 
         for (ShipType s : placeableShips
         ) {
@@ -35,9 +35,11 @@ public class Game {
         board1.outputBoard(gameStatus);
 
         while (gameStatus != GameStatus.END) {
-            if (board1.takeShot()) {
-                
-            }
+           Message msg = board1.takeShot();
+           if (msg == Message.ALL_SHIP_SUNK) {
+               gameStatus = GameStatus.END;
+           }
+            System.out.println(msg.getMessage());
         }
     }
 
