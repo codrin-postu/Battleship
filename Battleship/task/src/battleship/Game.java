@@ -1,21 +1,30 @@
 package battleship;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Game {
-    private Board[] players;
+    private ArrayList<Board> players;
     private GameStatus gameStatus;
 
     //TODO: Make placeableShips dynamic. Player can choose how many ships to have (2-6)
-    private final ShipType[] placeableShips = {ShipType.AIRCRAFT, ShipType.BATTLESHIP, ShipType.SUBMARINE, ShipType.CRUISER,ShipType.DESTROYER};
-
+    private ArrayList<ShipType> placeableShips;
 
 
     public Game() {
-        players = new Board[2];
-        this.players[0] = new Board("Player 1");
-        this.players[1] = new Board("Player 2");
+        players = new ArrayList<>(Arrays.asList(new Board("Player 1"), new Board("Player 2")));
         gameStatus = GameStatus.PREGAME;
+    }
+
+    public void addPlaceableShip(ShipType ship) {
+        placeableShips.add(ship);
+    }
+
+    public void setPlaceableShips(ArrayList<ShipType> ships) {
+        placeableShips = ships;
     }
 
     //TODO: Change it so there is a computer version
@@ -68,13 +77,13 @@ public class Game {
 
         while (gameStatus != GameStatus.END) {
 
-            playerShoot(players[0], players[1]);
+            playerShoot(players.get(0), players.get(1));
 
             if (gameStatus == GameStatus.END) {
                 break;
             }
 
-            playerShoot(players[1], players[0]);
+            playerShoot(players.get(1), players.get(0));
         }
     }
 

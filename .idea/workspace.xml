@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eeef223-c9ba-4787-83b6-104bb67f58a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +115,7 @@
       <workItem from="1605916792772" duration="4429000" />
       <workItem from="1606781431676" duration="20481000" />
       <workItem from="1607585726827" duration="12790000" />
-      <workItem from="1607694527728" duration="23880000" />
+      <workItem from="1607694527728" duration="27671000" />
     </task>
     <servers />
   </component>
@@ -120,38 +127,38 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1112@0.0.1728.1112" timestamp="1607880391943" />
-    <state width="1685" height="281" key="GridCell.Tab.0.bottom" timestamp="1607885170241">
+    <state width="1685" height="240" key="GridCell.Tab.0.bottom" timestamp="1607888969137">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="281" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607885170241" />
-    <state width="1685" height="281" key="GridCell.Tab.0.center" timestamp="1607885170241">
+    <state width="1685" height="240" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969137" />
+    <state width="1685" height="240" key="GridCell.Tab.0.center" timestamp="1607888969137">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="281" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607885170241" />
-    <state width="1685" height="281" key="GridCell.Tab.0.left" timestamp="1607885170241">
+    <state width="1685" height="240" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969137" />
+    <state width="1685" height="240" key="GridCell.Tab.0.left" timestamp="1607888969136">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="281" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607885170241" />
-    <state width="1685" height="281" key="GridCell.Tab.0.right" timestamp="1607885170241">
+    <state width="1685" height="240" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969136" />
+    <state width="1685" height="240" key="GridCell.Tab.0.right" timestamp="1607888969137">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="281" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607885170241" />
-    <state width="1685" height="240" key="GridCell.Tab.1.bottom" timestamp="1607882950417">
+    <state width="1685" height="240" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969137" />
+    <state width="1685" height="240" key="GridCell.Tab.1.bottom" timestamp="1607888969138">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607882950417" />
-    <state width="1685" height="240" key="GridCell.Tab.1.center" timestamp="1607882950417">
+    <state width="1685" height="240" key="GridCell.Tab.1.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969138" />
+    <state width="1685" height="240" key="GridCell.Tab.1.center" timestamp="1607888969137">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607882950417" />
-    <state width="1685" height="240" key="GridCell.Tab.1.left" timestamp="1607882950417">
+    <state width="1685" height="240" key="GridCell.Tab.1.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969137" />
+    <state width="1685" height="240" key="GridCell.Tab.1.left" timestamp="1607888969137">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607882950417" />
-    <state width="1685" height="240" key="GridCell.Tab.1.right" timestamp="1607882950417">
+    <state width="1685" height="240" key="GridCell.Tab.1.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969137" />
+    <state width="1685" height="240" key="GridCell.Tab.1.right" timestamp="1607888969138">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="240" key="GridCell.Tab.1.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607882950417" />
+    <state width="1685" height="240" key="GridCell.Tab.1.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607888969138" />
     <state x="586" y="298" width="540" height="524" key="StructurePopup" timestamp="1607873755736">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -182,23 +189,25 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Battleship/task/src/battleship/Board.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Battleship/task/src/battleship/Game.java</url>
-          <line>87</line>
-          <option name="timeStamp" value="8" />
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Battleship/task/src/battleship/Board.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/Battleship/task/src/battleship/Board.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties field="ships" class="battleship.Board" />
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Battleship/task/src/battleship/Board.java</url>
-          <line>92</line>
-          <properties class="battleship.Board" method="checkShip">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

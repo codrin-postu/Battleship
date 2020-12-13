@@ -1,6 +1,7 @@
 package battleship;
 
 import javax.management.remote.JMXConnectionNotification;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -15,11 +16,12 @@ public class Board {
 
     String[][] prepBoard; //Shows all ships
     String[][] gameBoard; //Fog until a missile hit
-    Ship[] ships;
-    int shipCount;
+    ArrayList<Ship> ships;
     //TODO: Make ship count dynamic
     public Board(String name) {
         this.name = name;
+
+        ships = new ArrayList<>();
 
         //We initialize the both matrix with the fog.
         this.prepBoard = new String[10][10];
@@ -30,8 +32,6 @@ public class Board {
                 prepBoard[i][j] = gameBoard[i][j] = "~";
             }
         }
-        this.ships = new Ship[5];
-        shipCount = 0;
     }
 
     public String getName() {
@@ -79,7 +79,7 @@ public class Board {
             yCoords[i] = coords[i + 2];
         }
 
-        ships[shipCount++] = new Ship(ship.getShipName(), ship.getShipLength(), xCoords, yCoords);
+        ships.add(new Ship(ship.getShipName(), ship.getShipLength(), xCoords, yCoords));
 
         for (int i = xCoords[0]; i <= xCoords[1]; i++) {
             for (int j = yCoords[0]; j <= yCoords[1]; j++) {
@@ -124,11 +124,11 @@ public class Board {
             return false;
         }
 
-        for (int i = 0; i < shipCount; i++) {
+        for (int i = 0; i < ships.size(); i++) {
             incorrectPos = 0;
 
-            int[] placedShipxCoords = ships[i].getxPos();
-            int[] placedShipyCoords = ships[i].getyPos();
+            int[] placedShipxCoords = ships.get(i).getxPos();
+            int[] placedShipyCoords = ships.get(i).getyPos();
 
            placedShipxCoords = Ship.largeBoundaries(placedShipxCoords);
            placedShipyCoords = Ship.largeBoundaries(placedShipyCoords);
@@ -186,8 +186,8 @@ public class Board {
                 if (s.isSunk()) continue;
                 if (s.checkHit(targetxCoord, targetyCoord)) {
                     if (s.isSunk()) {
-                        shipCount--;
-                        if (shipCount == 0) {
+                        ships.remove(s);
+                        if (ships.size() == 0) {
                             return Message.ALL_SHIP_SUNK;
                         }
                         return Message.SHIP_SUNK;
