@@ -6,43 +6,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/The end of the war/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/The end of the war/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/main/battleship/Ship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/classes/java/test/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/classes/java/test/Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/classes/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/classes/Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/TEST-Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/out/production/classes/battleship/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Battleship/task/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/test/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Currencies/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Currencies/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Days of week/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Days of week/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Hidden enumeration/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Hidden enumeration/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/Robot control/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/Robot control/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +62,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Problems-Convert_to_bytes_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Problems-Reverse_input_text_main" />
@@ -124,13 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Problems-Find_mistake_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +128,7 @@
       <workItem from="1605916792772" duration="4429000" />
       <workItem from="1606781431676" duration="20481000" />
       <workItem from="1607585726827" duration="12790000" />
-      <workItem from="1607694527728" duration="6712000" />
+      <workItem from="1607694527728" duration="14909000" />
     </task>
     <servers />
   </component>
@@ -156,26 +136,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1607514566838">
+    <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1607875590157">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1112@0.0.1728.1112" timestamp="1607514566838" />
-    <state width="1685" height="305" key="GridCell.Tab.0.bottom" timestamp="1607700846795">
+    <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1112@0.0.1728.1112" timestamp="1607875590157" />
+    <state width="1685" height="305" key="GridCell.Tab.0.bottom" timestamp="1607873700234">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607700846795" />
-    <state width="1685" height="305" key="GridCell.Tab.0.center" timestamp="1607700846794">
+    <state width="1685" height="305" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1607873700234" />
+    <state width="1685" height="305" key="GridCell.Tab.0.center" timestamp="1607873700233">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607700846794" />
-    <state width="1685" height="305" key="GridCell.Tab.0.left" timestamp="1607700846794">
+    <state width="1685" height="305" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1607873700233" />
+    <state width="1685" height="305" key="GridCell.Tab.0.left" timestamp="1607873700233">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607700846794" />
-    <state width="1685" height="305" key="GridCell.Tab.0.right" timestamp="1607700846795">
+    <state width="1685" height="305" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1607873700233" />
+    <state width="1685" height="305" key="GridCell.Tab.0.right" timestamp="1607873700234">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="305" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607700846795" />
+    <state width="1685" height="305" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607873700234" />
     <state width="1685" height="240" key="GridCell.Tab.1.bottom" timestamp="1607699299429">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -192,6 +172,10 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state width="1685" height="240" key="GridCell.Tab.1.right/0.0.1728.1112@0.0.1728.1112" timestamp="1607699299429" />
+    <state x="586" y="298" width="540" height="524" key="StructurePopup" timestamp="1607873755736">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="586" y="298" width="540" height="524" key="StructurePopup/0.0.1728.1112@0.0.1728.1112" timestamp="1607873755736" />
     <state x="561" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1607694528845">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -204,6 +188,10 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="558" y="288" width="611" height="536" key="find.popup/0.0.1728.1112@0.0.1728.1112" timestamp="1607524449456" />
+    <state x="527" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1607869953482">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="527" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1728.1112@0.0.1728.1112" timestamp="1607869953482" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

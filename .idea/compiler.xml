@@ -6,6 +6,8 @@
       <module name="Battleship-task_test" target="11" />
       <module name="Problems-Balance_management_main" target="11" />
       <module name="Problems-Balance_management_test" target="11" />
+      <module name="Problems-Bank_account_main" target="11" />
+      <module name="Problems-Bank_account_test" target="11" />
       <module name="Problems-Convert_to_bytes_main" target="11" />
       <module name="Problems-Convert_to_bytes_test" target="11" />
       <module name="Problems-Count_words_main" target="11" />
@@ -18,22 +20,50 @@
       <module name="Problems-Days_of_the_week_test" target="11" />
       <module name="Problems-Days_of_week_main" target="11" />
       <module name="Problems-Days_of_week_test" target="11" />
+      <module name="Problems-Employee_main" target="11" />
+      <module name="Problems-Employee_test" target="11" />
+      <module name="Problems-Employees_main" target="11" />
+      <module name="Problems-Employees_test" target="11" />
+      <module name="Problems-Find_mistake_main" target="11" />
+      <module name="Problems-Find_mistake_test" target="11" />
       <module name="Problems-Hidden_enumeration_main" target="11" />
       <module name="Problems-Hidden_enumeration_test" target="11" />
+      <module name="Problems-IntBinaryOperation_main" target="11" />
+      <module name="Problems-IntBinaryOperation_test" target="11" />
+      <module name="Problems-Overloading_methods_main" target="11" />
+      <module name="Problems-Overloading_methods_test" target="11" />
+      <module name="Problems-Phone_main" target="11" />
+      <module name="Problems-Phone_test" target="11" />
+      <module name="Problems-Print_main" target="11" />
+      <module name="Problems-Print_test" target="11" />
       <module name="Problems-Project_constants_and_methods_main" target="11" />
       <module name="Problems-Project_constants_and_methods_test" target="11" />
+      <module name="Problems-Publication_and_its_subclasses_main" target="11" />
+      <module name="Problems-Publication_and_its_subclasses_test" target="11" />
+      <module name="Problems-Publications_main" target="11" />
+      <module name="Problems-Publications_test" target="11" />
       <module name="Problems-Reverse_input_text_main" target="11" />
       <module name="Problems-Reverse_input_text_test" target="11" />
       <module name="Problems-Robot_control_main" target="11" />
       <module name="Problems-Robot_control_test" target="11" />
+      <module name="Problems-Saying_animals_main" target="11" />
+      <module name="Problems-Saying_animals_test" target="11" />
+      <module name="Problems-Shape_hierarchy_main" target="11" />
+      <module name="Problems-Shape_hierarchy_test" target="11" />
+      <module name="Problems-Shapes_area_main" target="11" />
+      <module name="Problems-Shapes_area_test" target="11" />
       <module name="Problems-System_of_units_main" target="11" />
       <module name="Problems-System_of_units_test" target="11" />
       <module name="Problems-The_root_of_a_number_main" target="11" />
       <module name="Problems-The_root_of_a_number_test" target="11" />
       <module name="Problems-Throw_an_unchecked_exception_main" target="11" />
       <module name="Problems-Throw_an_unchecked_exception_test" target="11" />
+      <module name="Problems-Time_main" target="11" />
+      <module name="Problems-Time_test" target="11" />
       <module name="Problems-Too_many_cats_main" target="11" />
       <module name="Problems-Too_many_cats_test" target="11" />
+      <module name="Problems-Users_and_WebSites_main" target="11" />
+      <module name="Problems-Users_and_WebSites_test" target="11" />
       <module name="util_main" target="11" />
       <module name="util_test" target="11" />
     </bytecodeTargetLevel>
