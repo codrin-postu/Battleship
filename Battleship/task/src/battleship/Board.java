@@ -17,7 +17,7 @@ public class Board {
     String[][] gameBoard; //Fog until a missile hit
     Ship[] ships;
     int shipCount;
-
+    //TODO: Make ship count dynamic
     public Board(String name) {
         this.name = name;
 
@@ -69,51 +69,18 @@ public class Board {
         }
     }
 
-    public void addShip(ShipType ship) {
-        Scanner scanner = new Scanner(System.in);
-        String input = new String();
+    public void addShipToBoard(ShipType ship, int[] coords) {
+        //Spliting coords
         int[] xCoords = new int[2];
         int[] yCoords = new int[2];
 
-        boolean errorHappened = false;
-
-        //We get the coords of the Ship to verify if it is valid
-        System.out.println("Enter the coordinates of the " + ship.getShipName() + " (" + ship.getShipLength() + " cells):");
-        do {
-            for (int i = 0; i < 2; i++) {
-                errorHappened = false;
-
-                if (scanner.hasNext()) {
-                    input = scanner.next();
-                } else {
-                    errorHappened = true;
-                }
-                input = input.toUpperCase();
-
-                xCoords[i] = input.charAt(0) - 65;
-                if (input.length() == 2 && Character.isDigit(input.charAt(1))) {
-                    yCoords[i] = Integer.parseInt(input.substring(1,2)) - 1;
-                } else if (input.length() == 3 && Character.isDigit(input.charAt(1)) && Character.isDigit(input.charAt(2))) {
-                    yCoords[i] = Integer.parseInt(input.substring(1,3)) - 1;
-                } else {
-                    errorHappened = true;
-                    break;
-                }
-            }
-            if (!errorHappened) {
-                errorHappened = !checkShip(xCoords, yCoords, ship.getShipName(), ship.getShipLength());
-            } else {
-                System.out.println("Error! Invalid information. Try again:");
-            }
-            scanner.nextLine();
-
-        } while (errorHappened);
+        for (int i = 0; i < 2; i++) {
+            xCoords[i] = coords[i];
+            yCoords[i] = coords[i + 2];
+        }
 
         ships[shipCount++] = new Ship(ship.getShipName(), ship.getShipLength(), xCoords, yCoords);
-        drawShip(xCoords, yCoords);
-    }
 
-    private void drawShip(int[] xCoords, int[] yCoords) {
         for (int i = xCoords[0]; i <= xCoords[1]; i++) {
             for (int j = yCoords[0]; j <= yCoords[1]; j++) {
                 prepBoard[i][j] = "o";
@@ -121,9 +88,21 @@ public class Board {
         }
     }
 
-    private boolean checkShip(int[] xCoords, int[] yCoords, String shipName, int expectedLength) {
+
+    //TODO: Split into methods, too much in one place
+    protected boolean checkShip(int[] coords, String shipName, int expectedLength) {
         //We check if we have at least 2 points where 2 ships may interact. If true, then it means those 2 are too close to eachother.
         int incorrectPos = 0;
+
+        //we split coords into X and Y values
+        int[] xCoords = new int[2];
+        int[] yCoords = new int[2];
+
+        for (int i = 0; i < 2; i++) {
+            xCoords[i] = coords[i];
+            yCoords[i] = coords[i + 2];
+        }
+
 
         //We order the coords in case the ships were placed the other way around
         Arrays.sort(xCoords);
@@ -151,13 +130,8 @@ public class Board {
             int[] placedShipxCoords = ships[i].getxPos();
             int[] placedShipyCoords = ships[i].getyPos();
 
-            Arrays.sort(placedShipxCoords);
-            placedShipxCoords[0] -= 1;
-            placedShipxCoords[1] += 1;
-
-            Arrays.sort(placedShipyCoords);
-            placedShipyCoords[0] -= 1;
-            placedShipyCoords[1] += 1;
+           placedShipxCoords = Ship.largeBoundaries(placedShipxCoords);
+           placedShipyCoords = Ship.largeBoundaries(placedShipyCoords);
 
             if (xCoords[0] == xCoords[1]) {
                 if (xCoords[0] >= placedShipxCoords[0] && xCoords[1] <= placedShipxCoords[1]) {
@@ -181,6 +155,7 @@ public class Board {
         return true;
     }
 
+    //TODO: Make code more readable split into methods.
     public Message takeShot() {
         Scanner scanner = new Scanner(System.in);
         int targetxCoord, targetyCoord;
@@ -200,9 +175,9 @@ public class Board {
 
         if (targetxCoord >= 10 || targetxCoord < 0 || targetyCoord >= 10 || targetyCoord < 0) {
             return Message.ERR_WRNG_COORDS;
-        } /*else if (gameBoard[targetxCoord][targetyCoord] != "~") {
+        } else if (gameBoard[targetxCoord][targetyCoord] != "~") {
             return Message.ERR_ALR_HIT;
-        } */else if (prepBoard[targetxCoord][targetyCoord] == "o") {
+        } else if (prepBoard[targetxCoord][targetyCoord] == "o") {
             gameBoard[targetxCoord][targetyCoord] = "X";
             prepBoard[targetxCoord][targetyCoord] = "X";
 

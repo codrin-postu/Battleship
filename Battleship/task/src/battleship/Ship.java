@@ -51,6 +51,14 @@ public class Ship {
         return Arrays.copyOf(yPos, yPos.length);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
     public void setSunk(boolean sunk) {
         this.sunk = sunk;
     }
@@ -70,5 +78,13 @@ public class Ship {
         }
         return false;
     }
+
+    public static int[] largeBoundaries(int[] coords) {
+        Arrays.sort(coords);
+        coords[0] -= 1;
+        coords[1] += 1;
+        return coords;
+    }
+
 
 }
