@@ -17,7 +17,7 @@ public class Board {
     String[][] prepBoard; //Shows all ships
     String[][] gameBoard; //Fog until a missile hit
     ArrayList<Ship> ships;
-    //TODO: Make ship count dynamic
+
     public Board(String name) {
         this.name = name;
 

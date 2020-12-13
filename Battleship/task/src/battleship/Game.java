@@ -10,7 +10,6 @@ public class Game {
     private ArrayList<Board> players;
     private GameStatus gameStatus;
 
-    //TODO: Make placeableShips dynamic. Player can choose how many ships to have (2-6)
     private ArrayList<ShipType> placeableShips;
 
 
