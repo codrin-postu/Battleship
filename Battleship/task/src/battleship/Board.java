@@ -11,12 +11,15 @@ public class Board {
     // x - hit ship
     // M - a miss
 
+    String name;
+
     String[][] prepBoard; //Shows all ships
     String[][] gameBoard; //Fog until a missile hit
     Ship[] ships;
     int shipCount;
 
-    public Board() {
+    public Board(String name) {
+        this.name = name;
 
         //We initialize the both matrix with the fog.
         this.prepBoard = new String[10][10];
@@ -29,6 +32,10 @@ public class Board {
         }
         this.ships = new Ship[5];
         shipCount = 0;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void outputBoard(GameStatus status) {
@@ -178,8 +185,6 @@ public class Board {
         Scanner scanner = new Scanner(System.in);
         int targetxCoord, targetyCoord;
 
-        System.out.println("Take a shot!");
-
         String input = scanner.next();
         input = input.toUpperCase();
 
@@ -199,7 +204,7 @@ public class Board {
             return Message.ERR_ALR_HIT;
         } */else if (prepBoard[targetxCoord][targetyCoord] == "o") {
             gameBoard[targetxCoord][targetyCoord] = "X";
-            outputBoard(GameStatus.GAME);
+            prepBoard[targetxCoord][targetyCoord] = "X";
 
             for (Ship s : ships
             ) {
@@ -217,7 +222,7 @@ public class Board {
             return Message.SHIP_HIT;
         } else {
             gameBoard[targetxCoord][targetyCoord] = "M";
-            outputBoard(GameStatus.GAME);
+            prepBoard[targetxCoord][targetyCoord] = "M";
 
             return Message.MISS;
         }

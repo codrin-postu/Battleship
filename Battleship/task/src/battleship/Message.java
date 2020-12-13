@@ -1,7 +1,7 @@
 package battleship;
 
 public enum Message {
-    SHIP_HIT("You hit a ship! Try again:"),
+    SHIP_HIT("You hit a ship!"),
     SHIP_SUNK("You sank a ship! Specify a new target:"),
     ALL_SHIP_SUNK("You sank the last ship. You won. Congratulations!"),
     MISS("You missed. Try again:"),
