@@ -119,8 +119,9 @@ public class Game {
     }
 
     private void outputGameBoards(Board board1, Board board2) {
+        System.out.println("-------Enemy Ships-----");
         board2.outputBoard(GameStatus.GAME);
-        System.out.println("---------------------");
+        System.out.println("--------Your Ships-----");
         board1.outputBoard(GameStatus.PREGAME);
     }
 
