@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eeef223-c9ba-4787-83b6-104bb67f58a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Battleship/task/src/battleship/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9eeef223-c9ba-4787-83b6-104bb67f58a4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +106,7 @@
       <workItem from="1605916792772" duration="4429000" />
       <workItem from="1606781431676" duration="20481000" />
       <workItem from="1607585726827" duration="12790000" />
-      <workItem from="1607694527728" duration="29199000" />
+      <workItem from="1607694527728" duration="29460000" />
     </task>
     <servers />
   </component>
@@ -122,6 +118,10 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="670" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1112@0.0.1728.1112" timestamp="1607880391943" />
+    <state x="645" y="298" key="FileChooserDialogImpl" timestamp="1607949661594">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="645" y="298" key="FileChooserDialogImpl/0.0.1728.1112@0.0.1728.1112" timestamp="1607949661594" />
     <state width="1685" height="240" key="GridCell.Tab.0.bottom" timestamp="1607888969137">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
