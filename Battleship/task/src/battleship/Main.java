@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    
+
     public static void main(String[] args) {
         Game game = new Game();
         MainMenu(game);
@@ -38,9 +38,13 @@ public class Main {
 
     public static void ShipModeSelection(Game game) {
 
+        ArrayList<ShipType> ships;
+
         System.out.println("-----Player vs Player-----");
-        System.out.println("1. Default Mode");
-        System.out.println("2. Custom Ship Mode");
+        System.out.println("1. Classic Mode");
+        System.out.println("2. Modern Mode");
+        System.out.println("3. Destroyer Mode");
+        System.out.println("4. Custom Ship Mode");
         System.out.println("0. Return");
 
         int answer = getPlayerChoice();
@@ -50,15 +54,24 @@ public class Main {
                 MainMenu(game);
                 break;
             case 1:
-                ArrayList<ShipType> ships = new ArrayList<ShipType>(Arrays.asList(ShipType.AIRCRAFT, ShipType.BATTLESHIP, ShipType.SUBMARINE, ShipType.CRUISER, ShipType.DESTROYER));
+                ships = new ArrayList<ShipType>(Arrays.asList(ShipType.AIRCRAFT, ShipType.BATTLESHIP, ShipType.SUBMARINE, ShipType.CRUISER, ShipType.DESTROYER));
                 ShipSelection(game, ships, 1);
                 break;
             case 2:
+                ships = new ArrayList<ShipType>(Arrays.asList(ShipType.AIRCRAFT, ShipType.BATTLESHIP,ShipType.CRUISER,ShipType.CRUISER,ShipType.SUBMARINE,ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER));
+                ShipSelection(game, ships, 1);
+                break;
+            case 3:
+                ships = new ArrayList<ShipType>(Arrays.asList(ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER,ShipType.DESTROYER));
+                ShipSelection(game, ships, 1);
+                break;
+            case 4:
                 ships = new ArrayList<>();
                 ShipSelection(game, ships);
                 break;
             default:
-                System.out.println("Error: Invalid input!");
+                System.out.println(
+                        "Error: Invalid input!");
                 ShipModeSelection(game);
         }
     }

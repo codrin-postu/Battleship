@@ -84,6 +84,7 @@ public class Game {
 
             playerShoot(players.get(1), players.get(0));
         }
+        Main.MainMenu(new Game());
     }
 
     //We get input from player
@@ -94,6 +95,8 @@ public class Game {
         boolean errorHappened = false;
 
         System.out.println("Enter the coordinates of the " + ship.getShipName() + " (" + ship.getShipLength() + " cells):");
+
+        //Checks the input and validates it "LETTER + NUMBER (1-10"
         do {
             for (int i = 0; i < 2; i++) {
                 errorHappened = false;
